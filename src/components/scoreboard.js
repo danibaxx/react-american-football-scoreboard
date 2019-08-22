@@ -1,3 +1,11 @@
 import React from 'react';
 
-import 
+function Scoreboard() {
+
+  return(
+    <div className="container">
+    <section className="scoreboard">
+  )
+};
+
+export default Scoreboard;

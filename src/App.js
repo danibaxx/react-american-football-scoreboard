@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import BottomRow from "./BottomRow";
+import Scoreboard from './components/Scoreboard'
 
 function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
@@ -12,8 +13,7 @@ function App() {
   const [awayScore, updateAwayScore] = useState(32); 
   
   return (
-    <div className="container">
-      <section className="scoreboard">
+      <Scoreboard />
         <div className="topRow">
           <div className="home">
             <h2 className="home__name">Lions</h2>
