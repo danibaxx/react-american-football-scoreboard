@@ -5,6 +5,8 @@ function Scoreboard() {
   return(
     <div className="container">
     <section className="scoreboard">
+    </section>
+    </div>
   )
 };
 
